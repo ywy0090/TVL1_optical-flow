@@ -87,7 +87,7 @@ int main(int argc, char *argv[])
 	IplImage *I0,*I1;
 	IplImage *optical_flow1, *optical_flow2;
 
-	CvCapture* capture = cvCreateFileCapture("E:\\Movie\\Mn.avi");
+	CvCapture* capture = cvCreateFileCapture("video.avi");
 	if (capture != NULL)
 	{
 		cvNamedWindow( "Original Video", CV_WINDOW_AUTOSIZE );
